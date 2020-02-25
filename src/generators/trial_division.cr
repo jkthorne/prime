@@ -7,7 +7,7 @@ class Generator::TrialDivision < Generator::PseudoPrime
   end
 
   def succ
-    Impl::TrialDivision.instance[@index += 1] 
+    Impl::TrialDivision.instance[@index += 1]
   end
 
   def rewind

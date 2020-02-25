@@ -70,10 +70,10 @@ describe Prime do
 
   it "enumerator next" do
     xenum = Prime.each
-    50.times.map{ xenum.succ }.to_a.should eq PRIMES[0, 50]
-    50.times.map{ xenum.succ }.to_a.should eq PRIMES[50, 50]
+    50.times.map { xenum.succ }.to_a.should eq PRIMES[0, 50]
+    50.times.map { xenum.succ }.to_a.should eq PRIMES[50, 50]
     xenum.rewind
-    100.times.map{ xenum.succ }.to_a.should eq PRIMES[0, 100]
+    100.times.map { xenum.succ }.to_a.should eq PRIMES[0, 100]
   end
 
   it "enumerator with index" do

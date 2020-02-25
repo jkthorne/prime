@@ -89,9 +89,9 @@ class Generator::PseudoPrime
       # if @offset >= @generator.size
       #   stop
       # else
-        value = @offset
-        @offset += 1
-        value
+      value = @offset
+      @offset += 1
+      value
       # end
     end
   end
