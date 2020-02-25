@@ -1,5 +1,7 @@
 # prime
 
+[![Build Status](https://travis-ci.com/wontruefree/prime.svg?branch=master)](https://travis-ci.com/wontruefree/prime)
+
 A basic implementation of a prime number generator.
 
 ## Installation
